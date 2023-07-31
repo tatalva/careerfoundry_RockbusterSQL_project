@@ -24,15 +24,15 @@ The data set contains information about Rockbuster’s ﬁlm inventory, customer
 
 ### Dimension Tables
 - Actor
-- - Address
-    - Category
-    - City
-    - Country
-    - Customer
-    - Film
-    - Film Actor
-    - Film Category
-    - Inventory
-    - Language
-    - Staff
-    - Store
+- Address
+- Category
+- City
+- Country
+- Customer
+- Film
+- Film Actor
+- Film Category
+- Inventory
+- Language
+- Staff
+- Store
