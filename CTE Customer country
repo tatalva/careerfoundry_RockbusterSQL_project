@@ -1,6 +1,6 @@
 Find out how many of the top 5 customers are based within each country. Use CTE
+
 /*CREATE CTE WITH 3.7 QUERY*/
-```
 WITH top_customers_cte (customer_id) AS (
 	SELECT A.customer_id,
        B.first_name,
@@ -24,4 +24,4 @@ INNER JOIN city C ON B.city_id = c.city_id
 INNER JOIN country F ON c.country_id = F.country_id
 LEFT JOIN top_customers_cte ON top_customers_cte.country = F.country
 GROUP BY F.country
-```
+
