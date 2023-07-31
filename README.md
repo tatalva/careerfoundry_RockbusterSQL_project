@@ -36,3 +36,6 @@ The data set contains information about Rockbuster’s ﬁlm inventory, customer
 - Language
 - Staff
 - Store
+
+## Tools
+Excel, DBvisualizer, PostgreSQL pgAdmin, Tableau
