@@ -42,4 +42,4 @@ Excel, DBvisualizer, PostgreSQL pgAdmin, Tableau
 
 ## Visualization
 
-[Tableau](https://public.tableau.com/views/RockbusterPresentation_16870616173000/RocbusterPresentation?:language=en-US&:display_count=n&:origin=viz_share_link)
+For analysis and visualisations please visit [Rockbuster Tableau](https://public.tableau.com/views/RockbusterPresentation_16870616173000/RocbusterPresentation?:language=en-US&:display_count=n&:origin=viz_share_link)
