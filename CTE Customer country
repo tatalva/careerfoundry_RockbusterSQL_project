@@ -1,4 +1,4 @@
-## : Find out how many of the top 5 customers are based within each country. Use CTE
+##Find out how many of the top 5 customers are based within each country. Use CTE
 
 /*CREATE CTE WITH 3.7 QUERY*/
 WITH top_customers_cte (customer_id) AS (
