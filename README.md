@@ -19,7 +19,7 @@ Provide data-driven answers that can use for the  2020 company strategy.
 The data set contains information about Rockbuster’s ﬁlm inventory, customers, and payments, among other things. The data can be divided into Fact tables and Dimension Tables as follows.
 
 ### Fact Tables
-    - Payment
+    * Payment
     - Rental
 
 ### Dimension Tables
