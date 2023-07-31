@@ -1,0 +1,19 @@
+## Find the average amount paid by the top 5 customers. Use Common Table Expression
+
+/*CREATE CTE WITH 3.7 QUERY*/
+WITH total_amount_paid_cte (Tota_Amount_paid) AS (
+	SELECT A.customer_id,
+       B.first_name,
+       B.last_name,
+	   D.city,
+	   D.country,
+	   SUM(A.amount) AS Total_Amount_paid
+FROM payment A
+INNER JOIN customer B ON A.customer_id = B.customer_id
+INNER JOIN address C on b.address_id = C.address_id
+INNER JOIN TOP_city D ON C.city_id = D.city_id --- link to the top 10 city view
+GROUP BY a.customer_id, b.first_name, b.last_name, b.address_id, d.city, d.country
+ORDER BY Total_Amount_paid DESC
+LIMIT 5)
+SELECT AVG (Total_Amount_paid) AS Avg_paid
+FROM total_amount_paid_cte
