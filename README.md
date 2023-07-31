@@ -1,4 +1,4 @@
-![image](https://github.com/tatalva/careerfoundry_RockbusterSQL_project/assets/101604456/86173446-0d6b-4db8-9e3d-a9ccc4709283)# Rockbuster SQL project
+Rockbuster SQL project
 *SQL queries used on Careerfoundry course*
 
 ## Rockbuster Stealth LLC
