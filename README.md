@@ -23,8 +23,8 @@ The data set contains information about Rockbuster’s ﬁlm inventory, customer
 - Rental
 
 ### Dimension Tables
-    - Actor
-    - Address
+- Actor
+- - Address
     - Category
     - City
     - Country
